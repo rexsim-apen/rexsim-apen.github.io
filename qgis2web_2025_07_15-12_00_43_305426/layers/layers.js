@@ -44,10 +44,10 @@ var lyr_priority_production_areas_current_2 = new ol.layer.Vector({
 
 lyr_satelitegooglemaps_0.setVisible(true);lyr_priority_development_areas_pba2050plus_1.setVisible(true);lyr_priority_production_areas_current_2.setVisible(true);
 var layersList = [lyr_satelitegooglemaps_0,lyr_priority_development_areas_pba2050plus_1,lyr_priority_production_areas_current_2];
-lyr_priority_development_areas_pba2050plus_1.set('fieldAliases', {'county': 'county', 'jurisdicti': 'jurisdicti', 'pda_name': 'pda_name', });
-lyr_priority_production_areas_current_2.set('fieldAliases', {'globalid': 'globalid', 'county': 'county', 'jurisdicti': 'jurisdicti', 'ppa_name': 'ppa_name', 'acres': 'acres', });
-lyr_priority_development_areas_pba2050plus_1.set('fieldImages', {'county': 'TextEdit', 'jurisdicti': 'TextEdit', 'pda_name': 'TextEdit', });
-lyr_priority_production_areas_current_2.set('fieldImages', {'globalid': 'TextEdit', 'county': 'TextEdit', 'jurisdicti': 'TextEdit', 'ppa_name': 'TextEdit', 'acres': 'TextEdit', });
+lyr_priority_development_areas_pba2050plus_1.set('fieldAliases', {'county': 'county', 'jurisdicti': 'jurisdicti', 'pda_name': 'pda_name', 'auxiliary_storage_symbol_alpha': 'auxiliary_storage_symbol_alpha', });
+lyr_priority_production_areas_current_2.set('fieldAliases', {'globalid': 'globalid', 'county': 'county', 'jurisdicti': 'jurisdicti', 'ppa_name': 'ppa_name', 'acres': 'acres', 'auxiliary_storage_symbol_alpha': 'auxiliary_storage_symbol_alpha', });
+lyr_priority_development_areas_pba2050plus_1.set('fieldImages', {'county': 'TextEdit', 'jurisdicti': 'TextEdit', 'pda_name': 'TextEdit', 'auxiliary_storage_symbol_alpha': 'TextEdit', });
+lyr_priority_production_areas_current_2.set('fieldImages', {'globalid': 'TextEdit', 'county': 'TextEdit', 'jurisdicti': 'TextEdit', 'ppa_name': 'TextEdit', 'acres': 'TextEdit', 'auxiliary_storage_symbol_alpha': 'TextEdit', });
 lyr_priority_development_areas_pba2050plus_1.set('fieldLabels', {'county': 'no label', 'jurisdicti': 'no label', 'pda_name': 'no label', });
 lyr_priority_production_areas_current_2.set('fieldLabels', {'globalid': 'no label', 'county': 'no label', 'jurisdicti': 'no label', 'ppa_name': 'no label', 'acres': 'no label', });
 lyr_priority_production_areas_current_2.on('precompose', function(evt) {
